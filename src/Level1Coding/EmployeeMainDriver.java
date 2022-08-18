@@ -21,8 +21,9 @@ public class EmployeeMainDriver {
                     System.out.println("How many records you want to enter ??");
                     int count = scanner.nextInt();
                     new AddEmployee().addingEmployee(count ,scanner);
+                    break;
                 case 2 :
-                    System.out.println("E");
+                    System.out.println("Employee Details Are : ");
 
             }
         }
